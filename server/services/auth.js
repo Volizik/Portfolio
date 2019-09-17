@@ -10,10 +10,10 @@ exports.checkJWT = jwt({
     cache: true,
     rateLimit: true,
     jwksRequestsPerMinute: 50,
-    jwksUri: 'https://eincode.eu.auth0.com/.well-known/jwks.json'
+    jwksUri: 'https://volizik.auth0.com/.well-known/jwks.json'
   }),
-  audience: 'NfvS9nw81ItncHJKPHCaAvwD9ChNWYn3',
-  issuer: 'https://eincode.eu.auth0.com/',
+  audience: 'Zn7OLo7S3xXEEX88oPIzXmU0JHhXPVsv',
+  issuer: 'https://volizik.auth0.com/',
   algorithms: ['RS256']
 })
 
